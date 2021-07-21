@@ -29,8 +29,7 @@ $mpesa->setEnv('test');// 'live' production environment
 $result = $mpesa->c2b($invoice_id, $phone_number, $amount, $reference_id, $shortcode);
 ```
 
-### Testing
-
+### Testin
 ``` bash
 composer test
 ```
